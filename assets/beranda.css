@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial';
+}
+a{
+	text-decoration:none;
+}
+body{
+	background-color: grey;
+
+}
+.nav-atas{
+	width: 100%;
+	display: flex;
+	height: 40px;
+	background: white;
+}
+.n-1{
+	display: flex;
+	
+	
+}
+.home,.profil{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.cari{
+	background: white;
+	height: 20px;
+	padding: 4px;
+	border-radius: 3px;
+	margin-left: 54%;
+}
+.search{
+	outline: none;
+	border:none;
+	padding-left: 5px;
+
+}
+.bayar{
+	display: block;
+	padding: 10px;
+	border-bottom: 1px black solid;
+	width: 240px;
+	background: #5a4f4f99;
+	color:white;
+
+}
+.go{
+	outline: none;
+	border:none;
+	background: url("../k_icon/cari.png");
+	background-repeat: no-repeat;
+	height: 22px;
+}
+.menu{
+	padding:10px;
+	
+}
+
+.menu-samping{
+	width: 20%;
+	
+
+}
+.menu-samping a{
+	color: black;
+}
+
+.link{
+	margin-top: 7px;
+}
+.a-menu,.dropdown{
+	border-bottom: 1px solid;
+    padding: 5px;
+    background-color: white;
+  	width: 100%;
+  	max-width: 100%;
+   
+}
+.dropdown {
+	
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px 9px;
+    left: 100%;
+    top:0;
+    border: 1px solid grey;
+}
+.dropdown-content a{
+	display: block;	
+	padding:5px;
+}
+.dropdown-content a:hover{
+	background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover{
+	cursor: pointer;
+}
+.content{
+	width: 78%;
+	background-color: white;
+	height: 300px;
+	margin-left: 40px;
+}
+.kotak-body{
+	display: flex;
+	margin-top: 5px;
+	width: 95%;
+	margin: 8px auto;
+}
+footer{
+	width: 100%;
+	height: 30px;
+	background: white;
+	padding-top: 5px;
+}
+.menu-samping a:hover,.pembungkus:hover{
+	background-color: grey
+}
